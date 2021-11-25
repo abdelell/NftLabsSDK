@@ -1,0 +1,78 @@
+PODS:
+  - BigInt (4.0.0)
+  - ContractCodegen (0.1):
+    - EtherKit (~> 0.2.0)
+    - ReactiveSwift (~> 4.0)
+  - CryptoSwift (1.0.0)
+  - EtherKit (0.2.0):
+    - EtherKit/Core (= 0.2.0)
+    - EtherKit/PromiseKit (= 0.2.0)
+  - EtherKit/Core (0.2.0):
+    - BigInt
+    - CryptoSwift
+    - Marshal
+    - Result (~> 4.0.0)
+    - secp256k1.swift
+    - Starscream
+  - EtherKit/PromiseKit (0.2.0):
+    - EtherKit/Core
+    - PromiseKit/CorePromise
+  - Marshal (1.2.7)
+  - PromiseKit (6.8.5):
+    - PromiseKit/CorePromise (= 6.8.5)
+    - PromiseKit/Foundation (= 6.8.5)
+    - PromiseKit/UIKit (= 6.8.5)
+  - PromiseKit/CorePromise (6.8.5)
+  - PromiseKit/Foundation (6.8.5):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.8.5):
+    - PromiseKit/CorePromise
+  - ReactiveSwift (4.0.0):
+    - Result (~> 4.0)
+  - Result (4.0.1)
+  - secp256k1.c (0.1.2)
+  - secp256k1.swift (0.1.4)
+  - Starscream (3.1.1)
+  - web3swift (2.3.0):
+    - BigInt (~> 4.0)
+    - CryptoSwift (~> 1.0.0)
+    - PromiseKit (~> 6.8.4)
+    - secp256k1.c (~> 0.1)
+    - Starscream (~> 3.1.0)
+
+DEPENDENCIES:
+  - ContractCodegen
+  - web3swift
+
+SPEC REPOS:
+  trunk:
+    - BigInt
+    - ContractCodegen
+    - CryptoSwift
+    - EtherKit
+    - Marshal
+    - PromiseKit
+    - ReactiveSwift
+    - Result
+    - secp256k1.c
+    - secp256k1.swift
+    - Starscream
+    - web3swift
+
+SPEC CHECKSUMS:
+  BigInt: 2aad1a9942dc932ec8b84290d2c564a3d76f97ab
+  ContractCodegen: 3cf0f6d27309cc20a2ff1decef389e62b035868d
+  CryptoSwift: d81eeaa59dc5a8d03720fe919a6fd07b51f7439f
+  EtherKit: 17dc49304b1841a141666ea2c20a733ef8d66d25
+  Marshal: ef480864a6af10a63f67be7e55bb5d8fe67a16d9
+  PromiseKit: 9616b0afef31eae56ab9ce044c8ec2b8612a15cd
+  ReactiveSwift: a2bb9ace428a109e9c0209615645d9d286c8c433
+  Result: a6e784bebf48b471d59cddc1adb81f41f678c487
+  secp256k1.c: db47b726585d80f027423682eb369729e61b3b20
+  secp256k1.swift: a7e7a214f6db6ce5db32cc6b2b45e5c4dd633634
+  Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
+  web3swift: 0f097eafe1d08f478694b882581b85a01afb6633
+
+PODFILE CHECKSUM: 298863586c6b95c5198f1270621856ac4b9e31bf
+
+COCOAPODS: 1.10.0

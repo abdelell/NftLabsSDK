@@ -1,0 +1,6 @@
+framework module Pods_NftLabsSDK {
+  umbrella header "Pods-NftLabsSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
