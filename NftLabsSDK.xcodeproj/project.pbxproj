@@ -34,17 +34,11 @@
 		CEDBAE87273E6B5E000842B9 /* nft.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDBAE86273E6B5E000842B9 /* nft.swift */; };
 		CEDBAE89273F20D4000842B9 /* ThirdWeb.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDBAE88273F20D4000842B9 /* ThirdWeb.swift */; };
 		CEDBAE8E273F6D03000842B9 /* NFTAbi.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDBAE8D273F6D03000842B9 /* NFTAbi.swift */; };
-		CEDBAE9027421E6A000842B9 /* abi.json in Resources */ = {isa = PBXBuildFile; fileRef = CEDBAE8F27421E6A000842B9 /* abi.json */; };
-		CEDBAE952743860C000842B9 /* ABIElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDBAE942743860C000842B9 /* ABIElement.swift */; };
-		CEDBAE9727438665000842B9 /* Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDBAE9627438665000842B9 /* Function.swift */; };
-		CEDBAE9927438694000842B9 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDBAE9827438694000842B9 /* Event.swift */; };
-		CEDBAE9D274389D7000842B9 /* abii.json in Resources */ = {isa = PBXBuildFile; fileRef = CEDBAE9C274389D7000842B9 /* abii.json */; };
-		CEDBAE9F27438C2D000842B9 /* ParameterParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDBAE9E27438C2D000842B9 /* ParameterParser.swift */; };
-		CEDBAEA127438C6A000842B9 /* ParsingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDBAEA027438C6A000842B9 /* ParsingError.swift */; };
-		CEDBAEA42743A679000842B9 /* NFTWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDBAEA22743A679000842B9 /* NFTWrapper.swift */; };
-		CEDBAEA52743A679000842B9 /* SharedContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDBAEA32743A679000842B9 /* SharedContract.swift */; };
-		CEDBAEA72743BCCB000842B9 /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = CEDBAEA62743BCCB000842B9 /* test.json */; };
-		CEDBAEA92743BD16000842B9 /* testWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDBAEA82743BD16000842B9 /* testWrapper.swift */; };
+		CEF4664C274F4184005A9CF6 /* ContractComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF4664B274F4184005A9CF6 /* ContractComponents.swift */; };
+		CEF4664E274F4195005A9CF6 /* ProjectContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF4664D274F4195005A9CF6 /* ProjectContract.swift */; };
+		CEF46650274F41A2005A9CF6 /* Wallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF4664F274F41A2005A9CF6 /* Wallet.swift */; };
+		CEF46652274F41AF005A9CF6 /* Networks.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF46651274F41AF005A9CF6 /* Networks.swift */; };
+		CEF46654274F41BD005A9CF6 /* ContractHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF46653274F41BD005A9CF6 /* ContractHelpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,17 +96,11 @@
 		CEDBAE86273E6B5E000842B9 /* nft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nft.swift; sourceTree = "<group>"; };
 		CEDBAE88273F20D4000842B9 /* ThirdWeb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdWeb.swift; sourceTree = "<group>"; };
 		CEDBAE8D273F6D03000842B9 /* NFTAbi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFTAbi.swift; sourceTree = "<group>"; };
-		CEDBAE8F27421E6A000842B9 /* abi.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = abi.json; sourceTree = "<group>"; };
-		CEDBAE942743860C000842B9 /* ABIElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABIElement.swift; sourceTree = "<group>"; };
-		CEDBAE9627438665000842B9 /* Function.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Function.swift; sourceTree = "<group>"; };
-		CEDBAE9827438694000842B9 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
-		CEDBAE9C274389D7000842B9 /* abii.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = abii.json; sourceTree = "<group>"; };
-		CEDBAE9E27438C2D000842B9 /* ParameterParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterParser.swift; sourceTree = "<group>"; };
-		CEDBAEA027438C6A000842B9 /* ParsingError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParsingError.swift; sourceTree = "<group>"; };
-		CEDBAEA22743A679000842B9 /* NFTWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NFTWrapper.swift; sourceTree = "<group>"; };
-		CEDBAEA32743A679000842B9 /* SharedContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedContract.swift; sourceTree = "<group>"; };
-		CEDBAEA62743BCCB000842B9 /* test.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = test.json; sourceTree = "<group>"; };
-		CEDBAEA82743BD16000842B9 /* testWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testWrapper.swift; sourceTree = "<group>"; };
+		CEF4664B274F4184005A9CF6 /* ContractComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContractComponents.swift; sourceTree = "<group>"; };
+		CEF4664D274F4195005A9CF6 /* ProjectContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectContract.swift; sourceTree = "<group>"; };
+		CEF4664F274F41A2005A9CF6 /* Wallet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wallet.swift; sourceTree = "<group>"; };
+		CEF46651274F41AF005A9CF6 /* Networks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networks.swift; sourceTree = "<group>"; };
+		CEF46653274F41BD005A9CF6 /* ContractHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContractHelpers.swift; sourceTree = "<group>"; };
 		E56236B1E4EC57BB6815D006 /* Pods-NftDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NftDemo.release.xcconfig"; path = "Target Support Files/Pods-NftDemo/Pods-NftDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -171,10 +159,8 @@
 		CEDBAE3B273E18E0000842B9 /* NftLabsSDK */ = {
 			isa = PBXGroup;
 			children = (
-				CEDBAE932742323F000842B9 /* GeneratedContracts */,
 				CEDBAE88273F20D4000842B9 /* ThirdWeb.swift */,
-				CEDBAE8F27421E6A000842B9 /* abi.json */,
-				CEDBAEA62743BCCB000842B9 /* test.json */,
+				CEF4664A274F416B005A9CF6 /* Smart Contract */,
 				CEDBAE8A273F6391000842B9 /* Abis */,
 				CEDBAE56273E2FEF000842B9 /* Options */,
 				CEDBAE59273E3084000842B9 /* Errors */,
@@ -233,12 +219,6 @@
 				CEDBAE65273E3DD9000842B9 /* NftDemoApp.swift */,
 				CEDBAE67273E3DD9000842B9 /* ContentView.swift */,
 				CEDBAE77273E3E3B000842B9 /* MintSomeShit.swift */,
-				CEDBAE9C274389D7000842B9 /* abii.json */,
-				CEDBAE942743860C000842B9 /* ABIElement.swift */,
-				CEDBAE9827438694000842B9 /* Event.swift */,
-				CEDBAE9627438665000842B9 /* Function.swift */,
-				CEDBAE9E27438C2D000842B9 /* ParameterParser.swift */,
-				CEDBAEA027438C6A000842B9 /* ParsingError.swift */,
 				CEDBAE69273E3DDF000842B9 /* Assets.xcassets */,
 				CEDBAE6B273E3DDF000842B9 /* Preview Content */,
 			);
@@ -287,14 +267,16 @@
 			path = Abis;
 			sourceTree = "<group>";
 		};
-		CEDBAE932742323F000842B9 /* GeneratedContracts */ = {
+		CEF4664A274F416B005A9CF6 /* Smart Contract */ = {
 			isa = PBXGroup;
 			children = (
-				CEDBAEA82743BD16000842B9 /* testWrapper.swift */,
-				CEDBAEA22743A679000842B9 /* NFTWrapper.swift */,
-				CEDBAEA32743A679000842B9 /* SharedContract.swift */,
+				CEF4664B274F4184005A9CF6 /* ContractComponents.swift */,
+				CEF4664D274F4195005A9CF6 /* ProjectContract.swift */,
+				CEF4664F274F41A2005A9CF6 /* Wallet.swift */,
+				CEF46651274F41AF005A9CF6 /* Networks.swift */,
+				CEF46653274F41BD005A9CF6 /* ContractHelpers.swift */,
 			);
-			path = GeneratedContracts;
+			path = "Smart Contract";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -393,8 +375,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEDBAE9027421E6A000842B9 /* abi.json in Resources */,
-				CEDBAEA72743BCCB000842B9 /* test.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,7 +384,6 @@
 			files = (
 				CEDBAE6D273E3DDF000842B9 /* Preview Assets.xcassets in Resources */,
 				CEDBAE6A273E3DDF000842B9 /* Assets.xcassets in Resources */,
-				CEDBAE9D274389D7000842B9 /* abii.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,26 +458,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEF46650274F41A2005A9CF6 /* Wallet.swift in Sources */,
 				CEDBAE49273E1A35000842B9 /* nftTypes.swift in Sources */,
 				CEDBAE4D273E1E65000842B9 /* pack.swift in Sources */,
 				CEDBAE89273F20D4000842B9 /* ThirdWeb.swift in Sources */,
+				CEF46652274F41AF005A9CF6 /* Networks.swift in Sources */,
 				CEDBAE53273E22C0000842B9 /* listing.swift in Sources */,
 				CEDBAE58273E3006000842B9 /* sdkOptions.swift in Sources */,
 				CEDBAE3E273E18E0000842B9 /* NftLabsSDK.docc in Sources */,
 				CEDBAE4F273E1FC5000842B9 /* market.swift in Sources */,
 				CEDBAE5B273E3093000842B9 /* errors.swift in Sources */,
+				CEF4664E274F4195005A9CF6 /* ProjectContract.swift in Sources */,
 				CEDBAE55273E2433000842B9 /* role.swift in Sources */,
-				CEDBAEA92743BD16000842B9 /* testWrapper.swift in Sources */,
 				CEDBAE83273E6A78000842B9 /* base.swift in Sources */,
 				CEDBAE87273E6B5E000842B9 /* nft.swift in Sources */,
 				CEDBAE5E273E3434000842B9 /* ercInterfacesConstants.swift in Sources */,
-				CEDBAEA42743A679000842B9 /* NFTWrapper.swift in Sources */,
 				CEDBAE4B273E1DEF000842B9 /* metadata.swift in Sources */,
 				CEDBAE47273E196E000842B9 /* collection.swift in Sources */,
+				CEF46654274F41BD005A9CF6 /* ContractHelpers.swift in Sources */,
 				CEDBAE80273E4B50000842B9 /* ipfsStorage.swift in Sources */,
+				CEF4664C274F4184005A9CF6 /* ContractComponents.swift in Sources */,
 				CEDBAE51273E20CE000842B9 /* currency.swift in Sources */,
 				CEDBAE8E273F6D03000842B9 /* NFTAbi.swift in Sources */,
-				CEDBAEA52743A679000842B9 /* SharedContract.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,13 +488,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEDBAE68273E3DD9000842B9 /* ContentView.swift in Sources */,
-				CEDBAE952743860C000842B9 /* ABIElement.swift in Sources */,
 				CEDBAE66273E3DD9000842B9 /* NftDemoApp.swift in Sources */,
-				CEDBAEA127438C6A000842B9 /* ParsingError.swift in Sources */,
-				CEDBAE9F27438C2D000842B9 /* ParameterParser.swift in Sources */,
 				CEDBAE78273E3E3B000842B9 /* MintSomeShit.swift in Sources */,
-				CEDBAE9927438694000842B9 /* Event.swift in Sources */,
-				CEDBAE9727438665000842B9 /* Function.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
